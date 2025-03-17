@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
     "@react-google-maps/api": "^2.20.6",
     "@tailwindcss/vite": "^4.0.9",
     "bootstrap-icons": "^1.11.3",
+    "heroicons": "^2.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "swiper": "^11.2.4",

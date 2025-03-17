@@ -13,7 +13,7 @@ const Accordion = ({ items }) => {
         <div
           key={index}
           className={`mb-4 border bg-[#ffff] border-gray-300 rounded-md overflow-hidden transition-all ${
-            openIndex === index ? "shadow-md" :""
+            openIndex === index ? "shadow-md" :"shadow-md"
           }`}
         >
           <button

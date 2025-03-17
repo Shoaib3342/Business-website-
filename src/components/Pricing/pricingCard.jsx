@@ -23,9 +23,9 @@ const PricingCards = ({
       <p className="text-sm md:text-base text-gray-600 mb-4">{description}</p>
       <h4 className="flex items-center mb-4">
         <sup className="text-xl md:text-2xl font-bold text-[#388da8]">$</sup>
-        <h1 className="text-[58px] md:text-[42px] font-[600] text-[#388da8]">
+        <span className="text-[58px] md:text-[42px] font-[600] text-[#388da8]">
           {price}
-        </h1>
+        </span>
         <span className="text-sm md:text-base text-gray-500 ml-2 mt-2">
           / month
         </span>
